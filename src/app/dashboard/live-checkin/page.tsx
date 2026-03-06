@@ -71,19 +71,26 @@ export default function LiveCheckinPage() {
         
         const result = await recognizeMember({ photoDataUri, members });
         
-        if (result.error || !result.memberId) {
+        if (result && "error" in result) {
             setError(result.error || 'Could not recognize the member. Please try again.');
             toast({
                 variant: 'destructive',
                 title: 'Recognition Failed',
                 description: result.error || 'The member could not be identified.',
             });
-        } else {
+        } else if (result && result.memberId) {
             const memberDetails = members.find(m => m.id === result.memberId);
             setRecognizedMember(memberDetails);
             toast({
                 title: 'Check-in Successful!',
                 description: `${memberDetails?.name} has been checked in.`,
+            });
+        } else {
+            setError('Could not recognize the member. Please try again.');
+            toast({
+                variant: 'destructive',
+                title: 'Recognition Failed',
+                description: 'The member could not be identified.',
             });
         }
     }
