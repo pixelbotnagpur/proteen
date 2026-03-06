@@ -44,7 +44,7 @@ export default function WorkoutsPage() {
     const result = await getWorkoutPlan(data);
     setIsLoading(false);
 
-    if (result.error || !result.workoutPlan) {
+    if ("error" in result) {
       toast({
         variant: 'destructive',
         title: 'Error',
