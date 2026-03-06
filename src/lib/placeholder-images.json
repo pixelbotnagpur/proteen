@@ -1,0 +1,375 @@
+{
+  "placeholderImages": [
+    {
+      "id": "about-hero-poster",
+      "description": "Poster image for the about page hero video.",
+      "imageUrl": "",
+      "imageHint": "dark gym"
+    },
+    {
+      "id": "our-story-image",
+      "description": "A founder sketching ideas in a notebook.",
+      "imageUrl": "/images/proteen-01.webp",
+      "imageHint": "founder sketching"
+    },
+    {
+      "id": "team-member-1",
+      "description": "A friendly-looking fitness trainer.",
+      "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026709a",
+      "imageHint": "fitness trainer"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Another smiling gym staff member.",
+      "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026709b",
+      "imageHint": "gym staff"
+    },
+    {
+      "id": "team-member-3",
+      "description": "A group photo of the gym trainers.",
+      "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026709c",
+      "imageHint": "gym trainers"
+    },
+    {
+      "id": "benefits1",
+      "description": "People working out in a gym.",
+      "imageUrl": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxneW0lMjB3b3Jrb3V0fGVufDB8fHx8MTc3MTU5ODgzMHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym workout"
+    },
+    {
+      "id": "benefits2",
+      "description": "A fitness class in session",
+      "imageUrl": "https://images.unsplash.com/photo-1597076545399-91a3ff0e71b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaXRuZXNzJTIwY2xhc3N8ZW58MHx8fHwxNzY5MDEwMTA1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness class"
+    },
+    {
+      "id": "benefits3",
+      "description": "A modern gym lounge area",
+      "imageUrl": "https://images.unsplash.com/photo-1580628330485-5ff21de29e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxneW0lMjBsb3VuZ2V8ZW58MHx8fHwxNzY5MDE4MDQzfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym lounge"
+    },
+    {
+      "id": "clubs",
+      "description": "Interior of a modern gym",
+      "imageUrl": "https://images.unsplash.com/photo-1599121118834-14b8ab00020c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxneW0lMjBpbnRlcmlvcnxlbnwwfHx8fDE3Njg5MjkwNTN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym interior"
+    },
+    {
+      "id": "bonuses",
+      "description": "Man boxing",
+      "imageUrl": "https://images.unsplash.com/photo-1651707999616-be901bcc97fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib3hpbmclMjB3b3Jrb3V0fGVufDB8fHx8MTc2OTAxODA0Mnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "boxing workout"
+    },
+    {
+      "id": "committed-1",
+      "description": "A person doing a box jump in a gym",
+      "imageUrl": "https://images.unsplash.com/photo-1714388286060-cb5307963073?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Ym94JTIwanVtcHxlbnwwfHx8fDE3NzA3MzY5MzJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "box jump"
+    },
+    {
+      "id": "committed-2",
+      "description": "A woman with training ropes in a gym",
+      "imageUrl": "https://images.unsplash.com/photo-1630857539167-e68ecccf3854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHRyYWluaW5nfGVufDB8fHx8MTc3MDczNjkzMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman training"
+    },
+    {
+      "id": "community-1",
+      "description": "A woman lifting a barbell",
+      "imageUrl": "/images/proteen-12.webp",
+      "imageHint": "woman weightlifting"
+    },
+    {
+      "id": "guided-experts",
+      "description": "A personal trainer assisting a client with their form.",
+      "imageUrl": "https://images.unsplash.com/photo-1648542036561-e1d66a5ae2b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMHRyYWluZXJ8ZW58MHx8fHwxNzcxNDY2MDk2fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "personal trainer"
+    },
+    {
+      "id": "open-gym",
+      "description": "A spacious and modern open gym with various equipment.",
+      "imageUrl": "/images/proteen-04.webp",
+      "imageHint": "open gym"
+    },
+    {
+      "id": "highlight-1",
+      "description": "A spacious, empty gym with modern equipment.",
+      "imageUrl": "/images/proteen-21.webp",
+      "imageHint": "empty gym"
+    },
+    {
+      "id": "highlight-2",
+      "description": "Luxurious and clean locker room with wooden benches.",
+      "imageUrl": "/images/proteen-15.webp",
+      "imageHint": "luxury locker room"
+    },
+    {
+      "id": "highlight-3",
+      "description": "Stylish interior of a gym, highlighting a luxury atmosphere.",
+      "imageUrl": "/images/proteen-02.webp",
+      "imageHint": "luxury gym atmosphere"
+    },
+    {
+      "id": "highlight-4",
+      "description": "Close-up of high-tech, customized gym equipment.",
+      "imageUrl": "/images/proteen-14.webp",
+      "imageHint": "customized gym equipment"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Placeholder for gallery image 1",
+      "imageUrl": "/images/proteen-09.webp",
+      "imageHint": "gym workout"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Placeholder for gallery image 2",
+      "imageUrl": "/images/proteen-06.webp",
+      "imageHint": "gym equipment"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Placeholder for gallery image 3",
+      "imageUrl": "/images/proteen-07.webp",
+      "imageHint": "fitness class"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Placeholder for gallery image 4",
+      "imageUrl": "/images/proteen-08.webp",
+      "imageHint": "weight lifting"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Placeholder for gallery image 5",
+      "imageUrl": "/images/proteen-17.webp",
+      "imageHint": "cardio workout"
+    },
+    {
+      "id": "premium-membership",
+      "description": "Premium membership benefits",
+      "imageUrl": "/images/proteen-05.webp",
+      "imageHint": "women reformer"
+    },
+    {
+      "id": "fitness-first",
+      "description": "A person working out intensely in a modern gym setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxneW18ZW58MHx8fHwxNzA3NDU4OTg5fDA&ixlib.rb-4.0.3&q=80&w=1080",
+      "imageHint": "intense workout"
+    },
+    {
+      "id": "locations-hero-bg",
+      "description": "A panoramic view of a modern gym interior.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Locations",
+      "imageHint": "gym interior"
+    },
+    {
+      "id": "location-amsterdam",
+      "description": "A placeholder image for the Amsterdam location.",
+      "imageUrl": "https://placehold.co/600x800/cccccc/1f1f1f/png?text=Amsterdam",
+      "imageHint": "gym location"
+    },
+    {
+      "id": "first-timer-hero-bg",
+      "description": "A welcoming view of the gym entrance.",
+      "imageUrl": "/images/proteen-04.webp",
+      "imageHint": "gym entrance"
+    },
+    {
+      "id": "what-to-expect-image",
+      "description": "A friendly trainer greeting a new member.",
+      "imageUrl": "/images/proteen-07.webp",
+      "imageHint": "trainer greeting"
+    },
+    {
+      "id": "pricing-hero-bg",
+      "description": "A modern gym with pricing information overlay.",
+      "imageUrl": "/images/proteen-19.webp",
+      "imageHint": "gym pricing"
+    },
+    {
+      "id": "book-a-workout-hero-bg",
+      "description": "A person looking at class schedules on their phone.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Book%20a%20Workout",
+      "imageHint": "class schedule"
+    },
+    {
+      "id": "book-a-workout-action-card",
+      "description": "A woman boxer posing.",
+      "imageUrl": "https://placehold.co/600x400/000000/FFFFFF/png?text=Action",
+      "imageHint": "woman boxer"
+    },
+    {
+      "id": "book-a-workout-first-timer-card",
+      "description": "A man working out with dumbbells.",
+      "imageUrl": "https://placehold.co/600x400/000000/FFFFFF/png?text=First+Timer",
+      "imageHint": "man workout"
+    },
+    {
+      "id": "classes-action-card",
+      "description": "A woman boxer posing.",
+      "imageUrl": "https://placehold.co/600x400/000000/FFFFFF/png?text=Action",
+      "imageHint": "woman boxer"
+    },
+    {
+      "id": "classes-first-timer-card",
+      "description": "A man working out with dumbbells.",
+      "imageUrl": "https://placehold.co/600x400/000000/FFFFFF/png?text=First+Timer",
+      "imageHint": "man workout"
+    },
+    {
+      "id": "classes-hero-bg",
+      "description": "A person looking at class schedules on their phone.",
+      "imageUrl": "/images/proteen-18.webp",
+      "imageHint": "class schedule"
+    },
+    {
+      "id": "admin-avatar",
+      "description": "Avatar for the admin user",
+      "imageUrl": "https://i.pravatar.cc/150?u=admin",
+      "imageHint": "admin user"
+    },
+    {
+      "id": "parallax-poster",
+      "description": "Poster image for the parallax video, showing a modern gym.",
+      "imageUrl": "https://images.unsplash.com/photo-1576678927484-cc907957088c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxneW0lMjBkYXJrfGVufDB8fHx8MTc2OTA5MzY1OXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark gym"
+    },
+    {
+      "id": "memberships-hero-poster",
+      "description": "Poster image for the memberships page hero video.",
+      "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxneW18ZW58MHx8fHwxNzA3NDU4OTg5fDA&ixlib.rb-4.0.3&q=80&w=1080",
+      "imageHint": "gym workout"
+    },
+    {
+      "id": "class-category-strength",
+      "description": "A person lifting heavy weights.",
+      "imageUrl": "/images/proteen-11.webp",
+      "imageHint": "strength training"
+    },
+    {
+      "id": "class-category-cardio",
+      "description": "A person running on a treadmill.",
+      "imageUrl": "/images/proteen-23.webp",
+      "imageHint": "cardio workout"
+    },
+    {
+      "id": "class-category-boxing",
+      "description": "A person hitting a punching bag.",
+      "imageUrl": "/images/proteen-25.webp",
+      "imageHint": "boxing"
+    },
+    {
+      "id": "class-category-yoga",
+      "description": "A person in a yoga pose.",
+      "imageUrl": "/images/proteen-26.webp",
+      "imageHint": "yoga pose"
+    },
+    {
+      "id": "faq-hero-bg",
+      "description": "A person looking thoughtful in a gym setting.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=FAQ",
+      "imageHint": "gym person thinking"
+    },
+    {
+      "id": "press-hero-bg",
+      "description": "A stylish shot of a magazine rack with fitness magazines.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Press",
+      "imageHint": "fitness magazines"
+    },
+    {
+      "id": "terms-hero-bg",
+      "description": "A close-up of a signed contract or document.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Terms",
+      "imageHint": "legal document"
+    },
+    {
+      "id": "press-logo-fw",
+      "description": "Fitness Weekly logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=FITNESS+WEEKLY",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-logo-uh",
+      "description": "Urban Health logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=URBAN+HEALTH",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-logo-mf",
+      "description": "Men's Fitness logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=Men's+Fitness",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-logo-tma",
+      "description": "The Modern Athlete logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=MODERN+ATHLETE",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-logo-wt",
+      "description": "Wellness Today logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=Wellness+Today",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-logo-clm",
+      "description": "City Life Magazine logo",
+      "imageUrl": "https://placehold.co/150x50/cccccc/1f1f1f/png?text=CITY+LIFE",
+      "imageHint": "logo"
+    },
+    {
+      "id": "press-article-1",
+      "description": "Press article image",
+      "imageUrl": "https://placehold.co/600x400/cccccc/1f1f1f/png?text=Article+1",
+      "imageHint": "gym interior"
+    },
+    {
+      "id": "press-article-2",
+      "description": "Press article image",
+      "imageUrl": "https://placehold.co/600x400/cccccc/1f1f1f/png?text=Article+2",
+      "imageHint": "gym workout"
+    },
+    {
+      "id": "press-article-3",
+      "description": "Press article image",
+      "imageUrl": "https://placehold.co/600x400/cccccc/1f1f1f/png?text=Article+3",
+      "imageHint": "fitness class"
+    },
+    {
+      "id": "contact-hero-bg",
+      "description": "A stylish, modern office reception area.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Contact",
+      "imageHint": "office reception"
+    },
+    {
+      "id": "jobs-hero-bg",
+      "description": "A group of colleagues collaborating in a bright, modern office.",
+      "imageUrl": "https://placehold.co/1920x1080/000000/FFFFFF/png?text=Jobs",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "jobs-culture-image",
+      "description": "A photo representing a positive and energetic company culture.",
+      "imageUrl": "https://placehold.co/800x1000/cccccc/1f1f1f/png?text=Our+Culture",
+      "imageHint": "company culture"
+    }
+  ],
+  "videos": [
+    {
+      "id": "parallax-video",
+      "description": "A video showing people working out, used for the hero section background.",
+      "videoUrl": "/videos/hero-vid.mp4"
+    },
+    {
+      "id": "memberships-hero-video",
+      "description": "Video for memberships page hero background.",
+      "videoUrl": ""
+    },
+    {
+      "id": "about-hero-video",
+      "description": "A panoramic view of a modern gym interior for the about page.",
+      "videoUrl": "/videos/hero-1.mp4"
+    }
+  ]
+}
