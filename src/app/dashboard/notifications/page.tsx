@@ -37,7 +37,7 @@ const customNotificationSchema = z.object({
 });
 
 const aiNotificationSchema = z.object({
-  context: z.string().min(1, 'Context is required.'),
+  notificationContext: z.string().min(1, 'Context is required.'),
   content: z.string().min(1, 'Content is required.'),
 });
 
@@ -53,7 +53,7 @@ export default function NotificationsPage() {
 
     const aiForm = useForm({
         resolver: zodResolver(aiNotificationSchema),
-        defaultValues: { context: '', content: '' },
+        defaultValues: { notificationContext: '', content: '' },
     });
 
     const onCustomSubmit = (data: z.infer<typeof customNotificationSchema>) => {
@@ -73,7 +73,7 @@ export default function NotificationsPage() {
         });
         setIsAiLoading(false);
 
-        if (result.error) {
+        if (result && "error" in result && result.error) {
             toast({
                 variant: 'destructive',
                 title: 'Error',
@@ -173,7 +173,7 @@ export default function NotificationsPage() {
                   <form onSubmit={aiForm.handleSubmit(onAiSubmit)} className="space-y-6">
                     <FormField
                       control={aiForm.control}
-                      name="context"
+                      name="notificationContext"
                       render={({ field }) => (
                         <FormItem>
                           <FormLabel>Notification Context</FormLabel>
